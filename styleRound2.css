@@ -1,0 +1,62 @@
+.round2Container {
+    display: grid;
+    grid-template-areas:   "cat1 cat2 cat3 cat4 cat5 cat6"
+                           "rowOne rowOneColumnTwo . . . ."
+                           "rowTwo rowTwoColumnTwo . . . ."
+                           "rowThree rowThreeColumnTwo . . . ."
+                           "rowFour rowFourColumnTwo . . . . "
+                           "rowFive rowFiveColumnTwo . . . ."
+                           ;
+
+    margin-left: 19.5%;
+    margin-right: 12.5%;
+    margin-bottom: 5%;
+    width: 60%;
+    background-color: gold;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 25px;
+    row-gap: 25px;
+    border: 10px solid black;
+}
+
+.inputBar {
+    margin-left: 44.8%;
+    margin-bottom: 2%;
+}
+
+.guessPass {
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.guess {
+    background-color: gold;
+    margin-right: 10%;
+}
+
+.pass {
+    background-color: gold;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nextRound {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 14px 40px;
+    background-color: gold;
+}
+
+.firstNextRound {
+    display: flex;
+    justify-content: center;
+}
