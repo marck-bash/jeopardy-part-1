@@ -1,3 +1,8 @@
+h1 {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+
 .finalCat {
     display: flex;
     justify-content: center;
@@ -31,11 +36,13 @@
 }
 
 .bet {
+    display: flex;
+    justify-content: center;
     background-color: gold;
     width: 10%;
     padding: 1%;
     border-radius: 12px;
     border: 2px solid blue;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-left: 43.8%;
 }

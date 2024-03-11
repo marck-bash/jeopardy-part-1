@@ -1,42 +1,43 @@
+h1 {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+
 .round1Container {
     display: grid;
-    grid-template-areas:   "cat1 cat2 cat3 cat4 cat5 cat6"
-                           "rowOne rowOneColumnTwo . . . ."
-                           "rowTwo rowTwoColumnTwo . . . ."
-                           "rowThree rowThreeColumnTwo . . . ."
-                           "rowFour rowFourColumnTwo . . . ."
-                           "rowFive rowFiveColumnTwo . . . ."
-                           ;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-left: 19.5%;
     margin-right: 12.5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     width: 60%;
     background-color: gold;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-items: center;
     column-gap: 25px;
     row-gap: 25px;
+    padding: 15px;
     border: 10px solid black;
 }
 
 .inputBar {
-    margin-left: 44.8%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-bottom: 2%;
 }
 
 .guessPass {
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     justify-content: center;
+    gap: 70px;
 }
 
-.guess {
+.guess > button {
     background-color: gold;
     margin-right: 10%;
 }
 
-.pass {
+.pass > button {
     background-color: gold;
 }
 
@@ -49,7 +50,6 @@
 
 .nextRound {
     display: flex;
-    margin-top: 5%;
     justify-content: center;
     border-radius: 12px;
     padding: 14px 40px;

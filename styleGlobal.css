@@ -1,8 +1,6 @@
 h1 {
     display: flex;
     width: 75%;
-    margin-right: 12.5%;
-    margin-left: 12.5%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -28,6 +26,7 @@ footer {
     width: 75%;
     margin-right: 12.5%;
     margin-left: 12.5%;
+    margin-top: 1%;
     bottom: 0;
     justify-content: space-between;
     align-items: flex-end;
